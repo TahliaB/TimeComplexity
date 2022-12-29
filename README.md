@@ -9,3 +9,5 @@ To run the experiment, I set a variable with the desired filesize, then created 
 Then, I used System.currentTimeMillis() to keep track of elapsed time, and I ran each algorithm. I then wrote the sorted data to a file to ensure it was sorted properly, then wrote the time in milliseconds to sort the data to a separate file (the elapsed time did not include the time it took for file I/O).
 
 The experiment was repeated a fixed number of times for several different filesizes to show the inefficiency of insertion sort, selection sort, and bubble sort, as well as the stark difference in merge sort's runtime.
+
+The program will run from SortingAlgorithms.java, but filenames within the java file will need to be changed. Upon running it, it will print out the runtime in milliseconds of each algorithm for the specified filesize after all algorithms are completed.
